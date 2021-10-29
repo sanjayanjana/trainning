@@ -6,14 +6,17 @@
 	int i=63;
 	while(i>num)
 	   {
-	     (num%9)
+	    switch(num%9)
 
 	     {
 
 	     case0:
 	     num=num+4;
 
-	     case1:
+	     case 1:
+	     num=num+8;
+
+	     case 2:
 	     num=num+9;
 
 	     case3:
